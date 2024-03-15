@@ -1,0 +1,19 @@
+1. Escribir un script que sume dos números y muestre el resultado.
+
+2. Escribir un script que determine si un número es par o impar.
+
+3. Escribir una función que calcule el factorial de un número.
+
+4. Escribir un script que recorra un array de nombres y los muestre uno por uno.
+
+5. Escribir un script que invierta una cadena de texto.
+
+6. Crear un formulario HTML que solicite el nombre y la edad del usuario y mostrar los datos ingresados.
+
+7. Definir una clase "Persona" con propiedades nombre y edad, y un método que muestre la información de la persona.
+
+8. Definir una clase "Empleado" que herede de la clase "Persona" y tenga una propiedad adicional "cargo".
+
+9. Escribir un script que lea el contenido de un archivo de texto llamado "datos.txt" y muestre su contenido en pantalla. (si no sabes aun como realizarlo busca informacion en la web)
+
+10. Modificar el ejercicio de manejo de formularios para validar que el campo "edad" sea un número entero positivo antes de mostrar los datos ingresados.
