@@ -1,0 +1,2 @@
+Hola mundo
+Ejemplo de escritura con php
