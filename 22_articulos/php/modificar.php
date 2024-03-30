@@ -1,10 +1,10 @@
 <?php
 include_once "config.php";
 
-$id = $_POST['id'];
-$nombre = $_POST['nombre'];
-$descripcion = $_POST['descripcion'];
-$precio = $_POST['precio'];
+$id = mysqli_real_escape_string($conn,$_POST['id']);
+$nombre = mysqli_real_escape_string($conn,$_POST['nombre']);
+$descripcion = mysqli_real_escape_string($conn,$_POST['descripcion']);
+$precio = mysqli_real_escape_string($conn,$_POST['precio']);
 
 $sql = "UPDATE articulos SET nombre='$nombre', descripcion='$descripcion', precio='$precio' WHERE id='$id'";
 

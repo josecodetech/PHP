@@ -19,9 +19,9 @@
         echo "<div class='catalogo'>";
         while ($fila = $consulta->fetch_assoc()) {
             echo "<div class='articulo'>";
-            echo "<h2>" . $fila['nombre'] . "</h2>";
-            echo "<p>" . $fila['descripcion'] . "</p>";
-            echo "<p>Precio: $" . $fila['precio'] . "</p>";
+            echo "<h2>" . htmlspecialchars($fila['nombre']) . "</h2>";
+            echo "<p>" . htmlspecialchars($fila['descripcion']) . "</p>";
+            echo "<p>Precio: $" . htmlspecialchars($fila['precio']) . "</p>";
             echo "</div>";
         }
         echo "</div>";
