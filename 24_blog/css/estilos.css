@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+}
+.menu{
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background-color: #0056b3;
+}
+.formulario{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.formulario h2{
+    margin-bottom: 20px;
+}
+.formulario label{
+    display: block;
+    margin-bottom: 10px;
+}
+.formulario input[type="text"],
+.formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario button[type="submit"]{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.entrada{
+    width: 70%;
+    margin:20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.entrada h2{
+    margin-bottom: 10px;
+}
+.entrada p{
+    margin-bottom: 10px;
+}
